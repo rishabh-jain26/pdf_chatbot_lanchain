@@ -25,13 +25,10 @@ This Streamlit application allows users to upload PDF documents, process their t
 python -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 pip install -r requirements.txt
-GOOGLE_API_KEY=your_google_api_key_here
-streamlit run app.py
+GOOGLE_API_KEY="AIzaSyBAhZ2gV-H8e5H0xYAM_mHGuyGEqQUlncM"
+streamlit run pdf.py
 .
-├── app.py
+├── pdf.py
 ├── .env
 ├── requirements.txt
 ├── README.md
-└── faiss_index/  # Directory to save the FAISS index
-
-Make sure to replace https://github.com/your-username/chat-pdf-gemini.git with the actual URL of your repository if you plan to host it on GitHub. Also, ensure that your requirements.txt file contains all the necessary dependencies for your project.
